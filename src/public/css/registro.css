@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Dawaher', sans-serif; 
+    background: #ebb06e; 
+    background-image: url(../img/classical-music-1920-x-1080.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 0.5rem 0; 
+    position: relative;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.nav__img {
+    width: 87px;
+    height: auto; 
+}
+
+.nav__ul {
+    list-style-type: none;
+    display: flex; 
+    gap: 2.7em; 
+}
+
+.nav__li {
+    display: inline; 
+}
+
+.nav__a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    text-decoration: none;
+    padding-left: 28px;
+    font-size: 1.1rem;
+    text-shadow: 0 0 10px white;
+    transition: color 0.3s; 
+}
+
+.nav__a:hover {
+    color: #ebb06e; 
+}
+
+.link--item {
+    color: rgb(81, 153, 247);
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-shadow: 0 0 10px rgb(245, 248, 250);
+    margin: 20px;
+    font-weight: 400;
+}
+
+.link--item:hover {
+    background: transparent;
+    color: rgb(107, 231, 134);
+    font-weight: 900;
+}
+
+
+.h3__register {
+    font-size: 1.71rem;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 25px;
+    text-shadow: 0 0 17px rgb(49, 46, 46);
+}
+
+
+form {
+    max-width: 610px;
+    margin: 0 auto;
+    margin-top: 80px; 
+    box-shadow: 0 0 45px gray;
+    border-radius: 20px;
+    padding: 18px 12px;
+    background: rgba(235, 176, 110, 0.92); 
+}
+
+div {
+    padding: 2px;
+}
+
+fieldset {
+    border: none;
+    border: 3px solid rgb(49, 42, 21);
+    padding: 20px 10px;
+    border-radius: 18px;
+    margin: 20px;
+}
+
+legend {
+    padding: 5px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(85, 1, 1);
+    text-shadow: 0 0 10px white;
+    font-weight: 900;
+}
+
+label {
+    margin-left: 37px;
+    color: rgb(255, 255, 255);
+    font-size: 1.09rem;
+}
+
+input {
+    margin: 0;
+    margin: auto;
+    width: 88%;
+    margin-left: 35px;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
+}
+
+.input__email:valid {
+    color: green;
+}
+
+.input__email:invalid {
+    color: red;
+}
+
+.boton {
+    width: 150px;
+    height: 26px;
+    font-weight: 900;
+    color: black;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.boton:hover{
+    background: transparent;
+    border: none;
+    border: 1px solid greenyellow;
+    color: beige;
+    text-transform: uppercase;
+}
+
+.link--item:hover{
+    background: transparent;
+    color: rgb(107, 231, 134);
+    font-weight: 900;
+}
+
+.footer{
+    padding: 1rem;
+    width: 100%;
+    
+
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
+}
+
+.footer__ul{
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+}
+
+.footer__li{
+    padding: 0 2rem;
+    border-left: solid 1px #18181a;
+}
+
+.footer__a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer__li.active{
+    border-left: solid 1px #fff;
+}
+
+.footer__a.active{
+    border-bottom: solid 1px #18181a;
+}
+
+.footer__img{
+    width: 180px;
+}
+
+.footer__span{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.footer__a:hover{ 
+    background: rgba(255, 255, 255, 0.2) ; 
+    
+}
+

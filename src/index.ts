@@ -13,6 +13,26 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/info', (req, res) => {
+    res.render('info');
+});
+
+app.get('/inicio_sesion', (req, res) => {
+    res.render('inicio_sesion');
+});
+
+app.get('/instrumentos', (req, res) => {
+    res.render('instrumentos');
+});
+
+app.get('/pedir', (req, res) => {
+    res.render('pedir');
+});
+
+app.get('/registro', (req, res) => {
+    res.render('registro');
+});
+
 app.listen(port, () => {
     console.log(`Servidor en http://localhost:${port}`);
 });

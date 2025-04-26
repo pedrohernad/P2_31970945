@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Dawaher', sans-serif; 
+    background: #ebb06e; 
+    background-image: url(../img/classical-music-1920-x-1080.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 0.5rem 0; 
+    position: relative;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.nav__img {
+    width: 87px;
+    height: auto; 
+}
+
+.nav__ul {
+    list-style-type: none;
+    display: flex; 
+    gap: 2.7em; 
+}
+
+.nav__li {
+    display: inline; 
+}
+
+.nav__a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    text-decoration: none;
+    padding-left: 28px;
+    font-size: 1.1rem;
+    text-shadow: 0 0 10px white;
+    transition: color 0.3s; 
+}
+
+.nav__a:hover {
+    color: #ebb06e; 
+}
+
+section {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.div__intrumentos {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    padding: 15px; 
+    text-align: center; 
+    width: calc(40% - 20px); 
+    box-sizing: border-box; 
+}
+
+.h4__instrumento {
+    font-size: 1.82rem;
+    font-weight: 900;
+    letter-spacing: 1.65px;
+    text-decoration: underline;
+    color: rgb(31, 29, 29);
+}
+
+.img__guitarra,
+.img__bajo,
+.img__bateria,
+.img__arpa,
+.img__GuitarraElectrica,
+.img__maracas,
+.img__piano,
+.img__trompeta,
+.img__violin,
+.img__cuatro {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.h3__precio {
+    margin: 10px 0; 
+    color: #461004; 
+    font-size: 1.26em; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 900;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+    width: 200px;
+    margin: auto;
+    border-radius: 8px; 
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.link__intrumento {
+    display: inline-block; 
+    font-size: 1.04rem;
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    background: #007BFF; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.link__intrumento:hover {
+    background: #0056b3; 
+}
+
+.footer {
+    padding: 3.7rem;
+    width: 100%;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
+}
+
+.footer__ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+}
+
+.footer__li {
+    padding: 0 2rem;
+    border-left: solid 1px #18181a;
+}
+
+
+
+.footer__a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer__li.active{
+    border-left: solid 1px #fff;
+}
+
+.footer__a.active{
+    border-bottom: solid 1px #18181a;
+}
+
+.footer__img{
+    width: 180px;
+}
+
+.footer__span{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.footer__a:hover{ 
+    background: rgba(255, 255, 255, 0.2) ; 
+    
+}

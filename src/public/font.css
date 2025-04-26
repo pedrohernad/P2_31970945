@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'dawaher';
+    src: url("static/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'dawaher';
+    src: url("static/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'dawaher';
+    src: url("static/Montserrat-Medium.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'dawaher';
+    src: url("static/Montserrat-ExtraLight.ttf") format("truetype");
+    font-weight: 100;
+}
