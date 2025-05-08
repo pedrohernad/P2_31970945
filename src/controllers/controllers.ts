@@ -8,12 +8,12 @@ interface Contacto {
   ip?: string;
 }
 interface Payment {
-  email: string;
+  correo: string;
   nombreTitular: string;
-  cardNumber: number | string;
+  cardNumber: string;
   expMonth: number | string;
   expYear: number | string;
-  cvv: number | string;
+  cvv: string;
   currency: string;
 }
 
@@ -26,7 +26,7 @@ class ContactsController {
   async add(req:Request,res:Response):Promise<void>{
     const {email,nombre,comentario}: Contacto = req.body;
     try {
-      const ip = req.ip;
+       const ip = req.ip || 'unknown';
       await ContactosModel.addContact({email,nombre,comentario,ip});
       res.status(201).json({status:true});
     } catch (error: any){
@@ -50,13 +50,17 @@ class ContactsController {
   }
 
   payment(req:Request,res:Response):Promise<void>{
+  return new Promise<void>((resolve) => {
     try {
       res.render('payment');
+      resolve();
     } catch(error: any) {
       console.error('Error:', error);
-      res.status(500).render('error', { message: 'erroral cargar vista formulario de pago' });
-    }  
-  }
+      res.status(500).render('error', { message: 'error al cargar vista formulario de pago' });
+      resolve();
+    }
+  });
+}
 
   async paymentAdd(req: Request, res: Response): Promise<void> {
     const { correo, nombreTitular, cardNumber, expMonth, expYear, cvv, currency }: Payment = req.body;
@@ -65,10 +69,10 @@ class ContactsController {
       await ContactosModel.paymentAdd({
         correo,
         nombreTitular,
-        cardNumber,
+        cardNumber:String(cardNumber),
         expMonth: Number(expMonth),
         expYear: Number(expYear),
-        cvv,
+        cvv: String(cvv),
         currency
       });
       res.status(201).json({status:true});
@@ -85,7 +89,7 @@ class ContactsController {
    try{
    const datePayments = await ContactosModel.getAllPayments();
    res.render('getPayments',{datePayments});
-   }catch(erro:any){
+   }catch(error:any){
      console.error('Error:', error);
      res.status(500).render('error', { 
       message: 'Error al procesar el pago',

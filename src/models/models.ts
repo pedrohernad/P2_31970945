@@ -37,12 +37,12 @@ class ContactoModel extends Model<ContactoAttributes, ContactoCreationAttributes
 // Añade estas interfaces al archivo
 interface PaymentAttributes {
   id?: number;
-  email: string;
+  correo: string;
   nombreTitular: string;
   cardNumber: string;
   expMonth: number;
   expYear: number;
-  cvv: string;
+  cvv:string;
   currency: string;
   createdAt?: Date;
   updatedAt?: Date;
@@ -53,12 +53,12 @@ interface PaymentCreationAttributes extends Optional<PaymentAttributes, 'id'> {}
 class PaymentModel extends Model<PaymentAttributes, PaymentCreationAttributes> 
   implements PaymentAttributes {
   public id!: number;
-  public email!: string;
+  public correo!: string;
   public nombreTitular!: string;
-  public cardNumber!: string;
+  public cardNumber!:string;
   public expMonth!: number;
   public expYear!: number;
-  public cvv!: string;
+  public cvv!:string;
   public currency!: string;
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
