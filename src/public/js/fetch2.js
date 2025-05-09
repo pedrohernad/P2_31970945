@@ -8,13 +8,14 @@ formularioPayment.addEventListener('submit',e=>{
 	const expYear =document.getElementById("expYear").value; 
 	const cvv = document.getElementById("cvv").value;
 	const currency =document.getElementById("currency").value;
+    const amount =document.getElementById("amount").value;
 
 	fetch('/payment/add',{
 		method:"POST",
 		headers:{
 			"Content-Type":"application/json"
 		},
-		body:JSON.stringify({correo,nombreTitular,cardNumber,expMonth,expYear,cvv,currency})
+		body:JSON.stringify({correo,nombreTitular,cardNumber,expMonth,expYear,cvv,currency,amount})
 	})
 	.then(res=>res.json())
 	.then(res=>{

@@ -44,6 +44,7 @@ interface PaymentAttributes {
   expYear: number;
   cvv:string;
   currency: string;
+  amount:string;
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -59,9 +60,10 @@ class PaymentModel extends Model<PaymentAttributes, PaymentCreationAttributes>
   public expMonth!: number;
   public expYear!: number;
   public cvv!:string;
-  public currency!: string;
-  public readonly createdAt!: Date;
-  public readonly updatedAt!: Date;
+  public currency!:string;
+  public amount!:string;
+  public readonly createdAt!:Date;
+  public readonly updatedAt!:Date;
 }
 
 // Configuración de Sequelize
@@ -148,6 +150,10 @@ PaymentModel.init(
     currency: {
       type: DataTypes.STRING(3),
       allowNull: false
+    },
+    amount:{
+       type:DataTypes.DECIMAL(10, 2),
+       allowNull:false
     }
   },
   {

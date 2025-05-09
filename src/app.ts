@@ -1,4 +1,4 @@
-import express, { Application } from 'express';
+import express, { Application,Request} from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import mainRouter from '@routes/index.js'; 
@@ -10,6 +10,9 @@ const publicDir = path.join(__dirname,'public');
 app.use(express.static(publicDir));
 app.use(express.urlencoded({extended:false}))
 app.use(express.json());
+// Configuración para Render.com
+app.set('trust proxy', 'loopback, linklocal, uniquelocal');
+
 app.use('/', mainRouter);
 app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));

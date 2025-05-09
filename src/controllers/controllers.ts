@@ -1,6 +1,16 @@
 import ContactosModel from '@models/models.js';
 import {Request,Response} from 'express';
-
+// Middleware para obtener IP confiable
+function getClientIp(req:Request) {
+  // Para Render y otros ambientes con proxy
+  const forwarded = req.headers['x-forwarded-for'];
+  if (forwarded) {
+    return typeof forwarded === 'string' 
+      ? forwarded.split(',')[0].trim() 
+      : forwarded[0].trim();
+  }
+  return req.ip;
+}
 interface Contacto {
   email: string;
   nombre: string;
@@ -15,6 +25,7 @@ interface Payment {
   expYear: number | string;
   cvv: string;
   currency: string;
+  amount:string;
 }
 
 class ContactsController {
@@ -26,7 +37,7 @@ class ContactsController {
   async add(req:Request,res:Response):Promise<void>{
     const {email,nombre,comentario}: Contacto = req.body;
     try {
-       const ip = req.ip || 'unknown';
+      const ip = getClientIp(req) || 'unknown';
       await ContactosModel.addContact({email,nombre,comentario,ip});
       res.status(201).json({status:true});
     } catch (error: any){
@@ -63,7 +74,7 @@ class ContactsController {
 }
 
   async paymentAdd(req: Request, res: Response): Promise<void> {
-    const { correo, nombreTitular, cardNumber, expMonth, expYear, cvv, currency }: Payment = req.body;
+    const { correo, nombreTitular, cardNumber, expMonth, expYear, cvv, currency,amount}: Payment = req.body;
 
     try {
       await ContactosModel.paymentAdd({
@@ -73,7 +84,8 @@ class ContactsController {
         expMonth: Number(expMonth),
         expYear: Number(expYear),
         cvv: String(cvv),
-        currency
+        currency,
+        amount:String(amount)
       });
       res.status(201).json({status:true});
     } catch(error: any) {
