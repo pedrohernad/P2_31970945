@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registros de Contactos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="/css/table.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="contacts-container">
         <div class="contacts-header">
-            <h1 class="contacts-title">Registros de Contacto</h1>
-            <span>Total: <%= contacts.length %></span>
+            <h1 class="contacts-title">Contacto</h1>
+            <a class="volver" href="/">Volver</a>
         </div>
 
         <% if (contacts.length > 0) { %>
@@ -29,20 +29,19 @@
                     <% contacts.forEach(contact => { %>
                         <tr>
                             <td data-label="Nombre"><%= contact.nombre %></td>
-                            <td data-label="Email" class="contact-email"><%= contact.email %></td>
+                            <td data-label="Email"><a href="mailto:<%= contact.email %>" class="contact-email"><%= contact.email %></a></td>
                             <td data-label="Comentario"><%= contact.comentario %></td>
-                            <td data-label="IP" class="contact-ip"><%= contact.ip %></td>
+                            <td data-label="IP"><span class="contact-ip"><%= contact.ip %></span></td>
                             <td data-label="Fecha" class="contact-date">
-                                <%= new Date(contact.createdAt).toLocaleDateString() %>
-                                <br>
-                                <%= new Date(contact.createdAt).toLocaleTimeString() %>
+                                <span><%= new Date(contact.createdAt).toLocaleDateString() %></span>
+                                <span><%= new Date(contact.createdAt).toLocaleTimeString() %></span>
                             </td>
                         </tr>
                     <% }); %>
                 </tbody>
             </table>
         <% } else { %>
-            <p>No hay registros de contactos disponibles.</p>
+            <p class="no-contacts">No hay registros de contactos disponibles.</p>
         <% } %>
     </div>
 </body>
