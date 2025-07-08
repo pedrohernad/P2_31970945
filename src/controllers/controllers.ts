@@ -304,10 +304,10 @@ class ContactsController {
       res.render('index', {
         sitioKey: process.env.SITIO_KEY,
         isAdmin: false,
-        title: 'Data contabilidad',
-        description: 'pagina de Davi de programacion II',
-        imageUrl: 'https://p2-31878463-4.onrender.com/img/VINITINTO2.jpg',
-        pageUrl: 'https://p2-31878463-4.onrender.com',
+        title: 'pedro design',
+        description: 'pagina de pedro de programacion II',
+        imageUrl: 'https://p2-31970945-4.onrender.com/imgs/img-4.jpg',
+        pageUrl: 'https://p2-31970945-4.onrender.com',
         view:'index'
       });
     } catch (error: any) {

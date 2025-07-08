@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "usuarios": "Users",
+    "empresa": "Company",
+    "pagos": "Payments",
+    "contactos": "Contacts",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Consulting & Accounting",
+      "subtitle": "Take your business to the next level",
+      "cta": "Explore"
+    }
+  },
+  "users": {
+    "card": {
+      "title": "User",
+      "nombre": "First Name",
+      "apellido": "Last Name",
+      "cedula": "ID",
+      "experiencia": "Work experience"
+    },
+    "text": {
+      "bold": "Thank you for your interest in joining our team.",
+      "body": "To continue the process, please send the required documentation."
+    }
+  },
+  "global": { "explorar": "Explore" },
+  "beneficios": {
+    "title": "Advantages of our services",
+    "item1": "Financial optimization …",
+    "item2": "Regulatory compliance …",
+    "item3": "Strategic decision‑making …"
+  },
+  "desventajas": {
+    "title": "Disadvantages of our services",
+    "item1": "Service cost …",
+    "item2": "External dependency …",
+    "item3": "Adaptability to each business …"
+  },
+  "form": {
+    "title": "Information Form",
+    "nombre": "Name",
+    "email": "Email",
+    "comentario": "Comment",
+    "enviar": "Send"
+  },
+  "footer": {
+    "mission": "Making innovative technology accessible to everyone.",
+    "usuarios": "Users",
+    "nosotros": "About Us",
+    "suscribirse": "Subscribe",
+    "derechos": "All rights reserved"
+  },
+  "auth": {
+    "loginTab": "Log In",
+    "registerTab": "Register",
+    "createAccount": "Create Account",
+    "email": "Email",
+    "emailPlaceholder": "yourmail@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "namePlaceholder": "John Doe",
+    "loginButton": "Sign In",
+    "registerButton": "Sign Up",
+    "google": "Continue with Google"
+  },
+  "searchPlaceholder": "Search by name or email...",
+  "contactRecords": "Contact Records",
+  "total": "Total",
+  "name": "Name",
+  "country": "Country",
+  "email": "Email",
+  "comment": "Comment",
+  "ip": "IP",
+  "date": "Date",
+  "noContacts": "No contact records available.",
+  "filtrosPagos": {
+    "buscar": "Search by name, email, reference...",
+    "todosEstados": "All statuses",
+    "aprobado": "Approved",
+    "rechazado": "Rejected",
+    "pendiente": "Pending",
+    "todosServicios": "All services",
+    "suscripcionMensual": "Monthly Subscription",
+    "suscripcionAnual": "Annual Subscription"
+  },
+  "pagos": {
+    "tituloRegistros": "Payment Records",
+    "total": "Total payments",
+    "noRegistros": "No payment records found.",
+    "tabla": {
+      "titular": "Cardholder",
+      "correo": "Email",
+      "descripcion": "Description",
+      "tarjeta": "Card",
+      "expiracion": "Expiration",
+      "moneda": "Currency",
+      "monto": "Amount",
+      "referencia": "Reference",
+      "fecha": "Date"
+    }
+  },
+  "paymentForm": {
+  "title": "Payment Registration",
+  "subtitle": "Fill in your card details",
+  "email": "Email",
+  "emailPlaceholder": "example@domain.com",
+  "cardholder": "Cardholder Name",
+  "cardholderPlaceholder": "As shown on the card",
+  "cardNumber": "Card Number",
+  "expDate": "Expiration Date",
+  "month": "Month",
+  "year": "Year",
+  "description": "Description",
+  "descriptionPlaceholder": "Enter description",
+  "securityCode": "Security Code",
+  "cvvPlaceholder": "123",
+  "amount": "Amount to Pay",
+  "payButton": "Make Payment",
+  "currencyUSD": "USD $",
+  "currencyEUR": "EUR €",
+  "currencyGBP": "GBP £",
+  "currencyJPY": "JPY ¥"
+}
+
+}

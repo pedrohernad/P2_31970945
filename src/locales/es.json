@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "usuarios": "Usuarios",
+    "empresa": "Empresa",
+    "pagos": "Pagos",
+    "contactos": "Contactos",
+    "login": "Inicio",
+    "logout": "Cerrar"
+  },
+  "home": {
+    "hero": {
+      "title": "Consultoría y Contaduría",
+      "subtitle": "Accede al siguiente nivel empresarial",
+      "cta": "Explorar"
+    }
+  },
+  "users": {
+    "card": {
+      "title": "Usuario",
+      "nombre": "Nombre",
+      "apellido": "Apellido",
+      "cedula": "Cédula",
+      "experiencia": "Experiencia laboral"
+    },
+    "text": {
+      "bold": "Gracias por su interés en formar parte de nuestro equipo.",
+      "body": "Para continuar con el proceso, envíe la documentación requerida."
+    }
+  },
+  "global": { "explorar": "Explorar" },
+  "beneficios": {
+    "title": "Ventajas de nuestros servicios",
+    "item1": "Optimización financiera …",
+    "item2": "Cumplimiento normativo …",
+    "item3": "Toma de decisiones estratégicas …"
+  },
+  "desventajas": {
+    "title": "Desventajas de nuestros servicios",
+    "item1": "Costo de los servicios …",
+    "item2": "Dependencia externa …",
+    "item3": "Adaptabilidad a cada negocio …"
+  },
+  "form": {
+    "title": "Registro de Información",
+    "nombre": "Nombre",
+    "email": "Correo",
+    "comentario": "Comentario",
+    "enviar": "Enviar"
+  },
+  "footer": {
+    "mission": "Hacer la tecnología innovadora accesible para todos.",
+    "usuarios": "Usuarios",
+    "nosotros": "Sobre Nosotros",
+    "suscribirse": "Suscribirse",
+    "derechos": "Todos los derechos reservados"
+  },
+  "auth": {
+    "loginTab": "Iniciar Sesión",
+    "registerTab": "Registrarse",
+    "createAccount": "Crear Cuenta",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tucorreo@ejemplo.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "confirmPassword": "Confirmar Contraseña",
+    "fullName": "Nombre Completo",
+    "namePlaceholder": "Juan Pérez",
+    "loginButton": "Ingresar",
+    "registerButton": "Registrarse",
+    "google": "Iniciar sesión con Google"
+  },
+   "searchPlaceholder": "Buscar por nombre o correo...",
+  "contactRecords": "Registros de Contacto",
+  "total": "Total",
+  "name": "Nombre",
+  "country": "País",
+  "email": "Email",
+  "comment": "Comentario",
+  "ip": "IP",
+  "date": "Fecha",
+  "noContacts": "No hay registros de contactos disponibles.",
+   "filtrosPagos": {
+    "buscar": "Buscar por nombre, correo, referencia...",
+    "todosEstados": "Todos los estados",
+    "aprobado": "Aprobado",
+    "rechazado": "Rechazado",
+    "pendiente": "Pendiente",
+    "todosServicios": "Todos los servicios",
+    "suscripcionMensual": "Suscripción Mensual",
+    "suscripcionAnual": "Suscripción Anual"
+  },
+  "pagos": {
+    "tituloRegistros": "Registros de Pagos",
+    "total": "Total de pagos",
+    "noRegistros": "No se encontraron registros de pagos.",
+    "tabla": {
+      "titular": "Titular",
+      "correo": "Correo",
+      "descripcion": "Descripción",
+      "tarjeta": "Tarjeta",
+      "expiracion": "Expiración",
+      "moneda": "Moneda",
+      "monto": "Monto",
+      "referencia": "Referencia",
+      "fecha": "Fecha"
+    }
+  },
+  "paymentForm": {
+  "title": "Registro de Pago",
+  "subtitle": "Complete los detalles de su tarjeta",
+  "email": "Correo Electrónico",
+  "emailPlaceholder": "ejemplo@dominio.com",
+  "cardholder": "Nombre del Titular",
+  "cardholderPlaceholder": "Como aparece en la tarjeta",
+  "cardNumber": "Número de Tarjeta",
+  "expDate": "Fecha de Expiración",
+  "month": "Mes",
+  "year": "Año",
+  "description": "Descripción",
+  "descriptionPlaceholder": "Ingresa descripción",
+  "securityCode": "Código de Seguridad",
+  "cvvPlaceholder": "123",
+  "amount": "Monto a Pagar",
+  "payButton": "Realizar Pago",
+  "currencyUSD": "USD $",
+  "currencyEUR": "EUR €",
+  "currencyGBP": "GBP £",
+  "currencyJPY": "JPY ¥"
+}
+}
