@@ -8,52 +8,166 @@
     "login": "Inicio",
     "logout": "Cerrar"
   },
-  "home": {
-    "hero": {
-      "title": "Consultoría y Contaduría",
-      "subtitle": "Accede al siguiente nivel empresarial",
-      "cta": "Explorar"
-    }
-  },
-  "users": {
-    "card": {
-      "title": "Usuario",
-      "nombre": "Nombre",
-      "apellido": "Apellido",
-      "cedula": "Cédula",
-      "experiencia": "Experiencia laboral"
+  "index": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "portfolio": "Portafolio",
+      "clients": "Clientes",
+      "blog": "Blog",
+      "payments": "Pagos",
+      "contacts": "Contactos"
     },
-    "text": {
-      "bold": "Gracias por su interés en formar parte de nuestro equipo.",
-      "body": "Para continuar con el proceso, envíe la documentación requerida."
+    "header": {
+      "title1": "Diseño gráfico que transforma",
+      "button1": "Ver portafolio",
+      "title2": "Identidad visual única",
+      "button2": "Ver servicios",
+      "title3": "Soluciones creativas",
+      "button3": "Contactar ahora",
+      "subtitle": "DISEÑADOR GRÁFICO FREELANCE",
+      "title": "Pedro Rodríguez",
+      "description": "Creando identidades visuales impactantes para marcas ambiciosas"
+    },
+    "contact": {
+      "phone": "+34 612 345 678",
+      "email": "hola@olliedesign.com",
+      "title": "Información de contacto",
+      "description": "¿Listo para empezar tu proyecto? Contáctame para una consulta gratuita."
+    },
+    "social": {
+      "title": "Sígueme"
+    },
+    "about": {
+      "subtitle": "SOBRE MÍ",
+      "title": "Diseñador gráfico con 10+ años de experiencia",
+      "description": "Especializado en branding y diseño editorial. Mi enfoque combina creatividad estratégica con ejecución impecable para crear soluciones visuales que destacan en el mercado.",
+      "link": "Descargar CV",
+      "stats1": "Proyectos completados",
+      "stats2": "Clientes satisfechos",
+      "stats3": "Tasa de satisfacción",
+      "stats4": "Premios de diseño"
+    },
+    "benefits": {
+      "subtitle": "POR QUÉ ELEGIRME",
+      "title": "Ventajas de trabajar conmigo",
+      "item1": {
+        "title": "Entrega rápida",
+        "desc": "Plazos optimizados sin comprometer la calidad"
+      },
+      "item2": {
+        "title": "Enfoque personalizado",
+        "desc": "Soluciones adaptadas a tus necesidades específicas"
+      },
+      "item3": {
+        "title": "Calidad premium",
+        "desc": "Diseños profesionales que elevan tu marca"
+      },
+      "item4": {
+        "title": "Versatilidad",
+        "desc": "Multidisciplinar en branding, web y packaging"
+      },
+      "item5": {
+        "title": "Precios transparentes",
+        "desc": "Sin costes ocultos ni sorpresas desagradables"
+      },
+      "item6": {
+        "title": "Soporte continuo",
+        "desc": "Acompañamiento post-entrega y revisiones"
+      }
+    },
+    "services": {
+      "subtitle": "QUÉ OFREZCO",
+      "title": "Mis servicios",
+      "item1": {
+        "title": "Diseño de marca",
+        "desc": "Logotipos, identidad corporativa y manuales de marca"
+      },
+      "price1": "Desde 450€",
+      "item2": {
+        "title": "Diseño editorial",
+        "desc": "Folletos, catálogos, revistas y libros corporativos"
+      },
+      "price2": "Desde 300€",
+      "item3": {
+        "title": "Diseño publicitario",
+        "desc": "Banners, vallas publicitarias y material promocional"
+      },
+      "price3": "Desde 250€",
+      "button": "Contratar ahora"
+    },
+    "portfolio": {
+      "subtitle": "TRABAJOS DESTACADOS",
+      "title": "Mi portafolio",
+      "item1": {
+        "title": "Identidad corporativa",
+        "desc": "Rediseño de marca para startup tecnológica"
+      },
+      "item2": {
+        "title": "Packaging premium",
+        "desc": "Diseño para línea de productos gourmet"
+      },
+      "item3": {
+        "title": "Diseño editorial",
+        "desc": "Catálogo fotográfico para artista contemporáneo"
+      },
+      "item4": {
+        "title": "Campaña publicitaria",
+        "desc": "Piezas gráficas para lanzamiento de producto"
+      },
+      "item5": {
+        "title": "Diseño web",
+        "desc": "Interfaz e-commerce para marca de moda"
+      },
+      "item6": {
+        "title": "Ilustración digital",
+        "desc": "Serie limitada para coleccionistas"
+      }
+    },
+    "testimonials": {
+      "subtitle": "LO QUE DICEN MIS CLIENTES",
+      "title": "Testimonios",
+      "item1": {
+        "quote": "Pedro transformó completamente nuestra identidad visual. Profesional, creativo y con gran atención al detalle.",
+        "name": "María López",
+        "position": "Directora de Marketing"
+      },
+      "item2": {
+        "quote": "Trabajar con Pedro fue una experiencia excepcional. Entendió nuestra visión y la superó con su creatividad.",
+        "name": "Carlos Méndez",
+        "position": "CEO, TechSolutions"
+      },
+      "item3": {
+        "quote": "Sus diseños no solo son hermosos sino estratégicos. Nuestras ventas aumentaron un 30% tras el rediseño.",
+        "name": "Ana Torres",
+        "position": "Fundadora, EcoBoutique"
+      }
+    },
+    "blog": {
+      "subtitle": "ÚLTIMAS NOTICIAS",
+      "title": "Blog de diseño",
+      "month": "Jun",
+      "post": {
+        "title": "Tendencias de diseño gráfico 2023",
+        "description": "Exploramos las tendencias visuales que dominarán este año, desde el neomorfismo hasta los colores vibrantes.",
+        "tag": "Tendencias",
+        "author": "Pedro Rodríguez"
+      }
+    },
+    "contactForm": {
+      "subtitle": "HABLEMOS DE TU PROYECTO",
+      "title": "Contáctame",
+      "name": "Tu nombre",
+      "email": "Tu correo electrónico",
+      "message": "Tu mensaje",
+      "button": "Enviar mensaje",
+      "infoTitle": "Información de contacto",
+      "infoDesc": "¿Listo para impulsar tu marca? Contáctame para una consulta gratuita.",
+      "location": "Madrid, España"
+    },
+    "footer": {
+      "copyright": "© 2023 Ollie Design. Todos los derechos reservados."
     }
-  },
-  "global": { "explorar": "Explorar" },
-  "beneficios": {
-    "title": "Ventajas de nuestros servicios",
-    "item1": "Optimización financiera …",
-    "item2": "Cumplimiento normativo …",
-    "item3": "Toma de decisiones estratégicas …"
-  },
-  "desventajas": {
-    "title": "Desventajas de nuestros servicios",
-    "item1": "Costo de los servicios …",
-    "item2": "Dependencia externa …",
-    "item3": "Adaptabilidad a cada negocio …"
-  },
-  "form": {
-    "title": "Registro de Información",
-    "nombre": "Nombre",
-    "email": "Correo",
-    "comentario": "Comentario",
-    "enviar": "Enviar"
-  },
-  "footer": {
-    "mission": "Hacer la tecnología innovadora accesible para todos.",
-    "usuarios": "Usuarios",
-    "nosotros": "Sobre Nosotros",
-    "suscribirse": "Suscribirse",
-    "derechos": "Todos los derechos reservados"
   },
   "auth": {
     "loginTab": "Iniciar Sesión",
