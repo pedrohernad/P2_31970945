@@ -1,5 +1,5 @@
 {
-  "nav": {
+    "nav": {
     "inicio": "Home",
     "usuarios": "Users",
     "empresa": "Company",
@@ -8,52 +8,166 @@
     "login": "Login",
     "logout": "Logout"
   },
-  "home": {
-    "hero": {
-      "title": "Consulting & Accounting",
-      "subtitle": "Take your business to the next level",
-      "cta": "Explore"
-    }
-  },
-  "users": {
-    "card": {
-      "title": "User",
-      "nombre": "First Name",
-      "apellido": "Last Name",
-      "cedula": "ID",
-      "experiencia": "Work experience"
+  "index": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "clients": "Clients",
+      "blog": "Blog",
+      "payments": "Payments",
+      "contacts": "Contacts"
     },
-    "text": {
-      "bold": "Thank you for your interest in joining our team.",
-      "body": "To continue the process, please send the required documentation."
+    "header": {
+      "title1": "Transformative graphic design",
+      "button1": "View portfolio",
+      "title2": "Unique visual identity",
+      "button2": "View services",
+      "title3": "Creative solutions",
+      "button3": "Contact now",
+      "subtitle": "FREELANCE GRAPHIC DESIGNER",
+      "title": "Pedro Rodríguez",
+      "description": "Creating impactful visual identities for ambitious brands"
+    },
+    "contact": {
+      "phone": "+34 612 345 678",
+      "email": "hello@olliedesign.com",
+      "title": "Contact information",
+      "description": "Ready to start your project? Contact me for a free consultation."
+    },
+    "social": {
+      "title": "Follow me"
+    },
+    "about": {
+      "subtitle": "ABOUT ME",
+      "title": "Graphic designer with 10+ years experience",
+      "description": "Specialized in branding and editorial design. My approach combines strategic creativity with flawless execution to create visual solutions that stand out in the market.",
+      "link": "Download CV",
+      "stats1": "Completed projects",
+      "stats2": "Satisfied clients",
+      "stats3": "Satisfaction rate",
+      "stats4": "Design awards"
+    },
+    "benefits": {
+      "subtitle": "WHY CHOOSE ME",
+      "title": "Benefits of working with me",
+      "item1": {
+        "title": "Fast delivery",
+        "desc": "Optimized deadlines without compromising quality"
+      },
+      "item2": {
+        "title": "Personalized approach",
+        "desc": "Solutions tailored to your specific needs"
+      },
+      "item3": {
+        "title": "Premium quality",
+        "desc": "Professional designs that elevate your brand"
+      },
+      "item4": {
+        "title": "Versatility",
+        "desc": "Multidisciplinary in branding, web and packaging"
+      },
+      "item5": {
+        "title": "Transparent pricing",
+        "desc": "No hidden costs or unpleasant surprises"
+      },
+      "item6": {
+        "title": "Ongoing support",
+        "desc": "Post-delivery support and revisions"
+      }
+    },
+    "services": {
+      "subtitle": "WHAT I OFFER",
+      "title": "My services",
+      "item1": {
+        "title": "Brand design",
+        "desc": "Logos, corporate identity and brand manuals"
+      },
+      "price1": "From €450",
+      "item2": {
+        "title": "Editorial design",
+        "desc": "Brochures, catalogs, magazines and corporate books"
+      },
+      "price2": "From €300",
+      "item3": {
+        "title": "Advertising design",
+        "desc": "Banners, billboards and promotional material"
+      },
+      "price3": "From €250",
+      "button": "Hire now"
+    },
+    "portfolio": {
+      "subtitle": "FEATURED WORKS",
+      "title": "My portfolio",
+      "item1": {
+        "title": "Corporate identity",
+        "desc": "Brand redesign for tech startup"
+      },
+      "item2": {
+        "title": "Premium packaging",
+        "desc": "Design for gourmet product line"
+      },
+      "item3": {
+        "title": "Editorial design",
+        "desc": "Photography catalog for contemporary artist"
+      },
+      "item4": {
+        "title": "Advertising campaign",
+        "desc": "Graphic pieces for product launch"
+      },
+      "item5": {
+        "title": "Web design",
+        "desc": "E-commerce interface for fashion brand"
+      },
+      "item6": {
+        "title": "Digital illustration",
+        "desc": "Limited series for collectors"
+      }
+    },
+    "testimonials": {
+      "subtitle": "WHAT MY CLIENTS SAY",
+      "title": "Testimonials",
+      "item1": {
+        "quote": "Pedro completely transformed our visual identity. Professional, creative and with great attention to detail.",
+        "name": "María López",
+        "position": "Marketing Director"
+      },
+      "item2": {
+        "quote": "Working with Pedro was an exceptional experience. He understood our vision and exceeded it with his creativity.",
+        "name": "Carlos Méndez",
+        "position": "CEO, TechSolutions"
+      },
+      "item3": {
+        "quote": "His designs are not only beautiful but strategic. Our sales increased by 30% after the redesign.",
+        "name": "Ana Torres",
+        "position": "Founder, EcoBoutique"
+      }
+    },
+    "blog": {
+      "subtitle": "LATEST NEWS",
+      "title": "Design blog",
+      "month": "Jun",
+      "post": {
+        "title": "Graphic design trends 2023",
+        "description": "We explore the visual trends that will dominate this year, from neomorphism to vibrant colors.",
+        "tag": "Trends",
+        "author": "Pedro Rodríguez"
+      }
+    },
+    "contactForm": {
+      "subtitle": "LET'S TALK ABOUT YOUR PROJECT",
+      "title": "Contact me",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "button": "Send message",
+      "infoTitle": "Contact information",
+      "infoDesc": "Ready to boost your brand? Contact me for a free consultation.",
+      "location": "Madrid, Spain"
+    },
+    "footer": {
+      "copyright": "© 2023 Ollie Design. All rights reserved."
     }
-  },
-  "global": { "explorar": "Explore" },
-  "beneficios": {
-    "title": "Advantages of our services",
-    "item1": "Financial optimization …",
-    "item2": "Regulatory compliance …",
-    "item3": "Strategic decision‑making …"
-  },
-  "desventajas": {
-    "title": "Disadvantages of our services",
-    "item1": "Service cost …",
-    "item2": "External dependency …",
-    "item3": "Adaptability to each business …"
-  },
-  "form": {
-    "title": "Information Form",
-    "nombre": "Name",
-    "email": "Email",
-    "comentario": "Comment",
-    "enviar": "Send"
-  },
-  "footer": {
-    "mission": "Making innovative technology accessible to everyone.",
-    "usuarios": "Users",
-    "nosotros": "About Us",
-    "suscribirse": "Subscribe",
-    "derechos": "All rights reserved"
   },
   "auth": {
     "loginTab": "Log In",
